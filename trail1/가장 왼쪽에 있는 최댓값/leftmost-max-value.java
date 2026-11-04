@@ -44,10 +44,6 @@ public class Main {
             }
 
             n = a - 1;
-
-            if(n == 0) {
-                break;
-            }
         }
     }
 }
