@@ -1,0 +1,20 @@
+package boj;
+
+import java.util.Scanner;
+
+public class Array2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int[] Arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            Arr[i] = sc.nextInt();
+
+            Arr[i] *= Arr[i];
+
+            System.out.print(Arr[i] + " ");
+        }
+    }
+}

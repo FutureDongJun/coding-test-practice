@@ -1,0 +1,17 @@
+package boj;
+
+import java.util.Scanner;
+
+public class passed1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        if (n >= 80) {
+            System.out.println("pass");
+        } else {
+            System.out.println(80 - n + " more score");
+        }
+    }
+}

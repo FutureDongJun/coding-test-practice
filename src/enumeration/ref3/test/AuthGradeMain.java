@@ -1,0 +1,14 @@
+package enumeration.ref3.test;
+
+import java.util.Arrays;
+
+public class AuthGradeMain {
+    public static void main(String[] args) {
+        AuthGrade[] authGrades = AuthGrade.values();
+
+        for (AuthGrade authGrade : authGrades) {
+            System.out.println("grade = " + authGrade.name() + ", level = " + authGrade.getLevel() + ", 설명 = " + authGrade.getDescription());
+        }
+
+    }
+}
