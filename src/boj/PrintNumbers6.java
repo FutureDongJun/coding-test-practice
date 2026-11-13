@@ -1,0 +1,18 @@
+package boj;
+
+import java.util.Scanner;
+
+public class PrintNumbers6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(11 + (2 * j) + (2 * i) + " ");
+            }
+            System.out.println();
+        }
+    }
+}
