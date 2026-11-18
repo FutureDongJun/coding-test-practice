@@ -2,7 +2,7 @@ package generic.test.ex3.unit;
 
 public class UnitPrinter {
 
-    public static <T extends BioUnit> void printerV1(Shuttle<T> t1) {
+    public static <T extends BioUnit> void printV1(Shuttle<T> t1) {
         T unit = t1.out();
         System.out.println("이름: " + unit.getName() + ", HP: " + unit.getHp());
     }
